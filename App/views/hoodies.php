@@ -1,3 +1,6 @@
+<?php
+//include "../partials/nav.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oudies</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="public/css/styles.css">
+
   <style>
     body {
         display: flex;
@@ -53,7 +57,7 @@
 <body>
   <header>
     <nav>
-      <div class="logo"><img src="name.png" alt="Oudies Logo"></div>
+      <div class="logo"><img src="public/img/name.png" alt="Oudies Logo"></div>
       <ul class="nav-links">
         <li ><a href="home.html">Home</a></li>
         <li><a href="hoodies.html">Hoodies</a></li>
@@ -86,7 +90,7 @@
         <!-- Add more hoodie items with the same structure -->
         <!-- Hoodie 2 -->
         <div class="hoodie">
-          <img src="o3.jpg" alt="Hoodie 2">
+          <img src="public/img/o3.jpg" alt="Hoodie 2">
           <div class="info">
             <p class="hoodie-name">Hoodie Name 2</p>
             <p class="hoodie-price">$39.99</p>
@@ -98,7 +102,7 @@
         </div>
         <!-- Hoodie 2 -->
         <div class="hoodie">
-            <img src="o3.jpg" alt="Hoodie 2">
+            <img src="public/img/o3.jpg" alt="Hoodie 2">
             <div class="info">
               <p class="hoodie-name">Hoodie Name 2</p>
               <p class="hoodie-price">$39.99</p>
@@ -110,7 +114,7 @@
           </div>
           <!-- Hoodie 2 -->
         <div class="hoodie">
-            <img src="o3.jpg" alt="Hoodie 2">
+            <img src="public/img/o3.jpg" alt="Hoodie 2">
             <div class="info">
               <p class="hoodie-name">Hoodie Name 2</p>
               <p class="hoodie-price">$39.99</p>
@@ -122,7 +126,7 @@
           </div>
           <!-- Hoodie 2 -->
         <div class="hoodie">
-            <img src="o3.jpg" alt="Hoodie 2">
+            <img src="public/img/o3.jpg" alt="Hoodie 2">
             <div class="info">
               <p class="hoodie-name">Hoodie Name 2</p>
               <p class="hoodie-price">$39.99</p>
